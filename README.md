@@ -9,3 +9,7 @@ This **chromium-v84-widevine** does not download a 2GB ChromeOS image file, but 
 git clone https://github.com/Botspot/chromium-v84-widevine
 sudo cp -a ~/chromium-v84-widevine/WidevineCdm /opt
 ```
+## To uninstall:
+```
+sudo rm -r /opt/WidevineCdm
+```
